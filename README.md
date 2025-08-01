@@ -1,6 +1,6 @@
 # Whiteboard Challenges
 
-## Challenge 1
+## Challenge (1)
 
 ### Reversed array challenge
 
@@ -14,7 +14,7 @@ This function takes an array and returns the most frequent number.
 
 -------
 
-## Challenge 2
+## Challenge (2)
 
 ### Minimum Value
 
