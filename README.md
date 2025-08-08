@@ -20,3 +20,6 @@ This function takes an array and returns the most frequent number.
 
 This function takes an array and returns the minimum value.
 ![Minimum Value](./whiteboard-challenges/MinimumValue.png)
+
+### Challenge 03: Reverse Characters  
+[Reverse-Characters](Challenges/Reverse-Characters/README.md)
