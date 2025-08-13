@@ -1,0 +1,23 @@
+"use strict";
+
+function RemoveMiddleValue(arr){
+    const myArr = [];
+    const del = findMiddle(arr);
+
+    for(let i=0; i<arr.length; i++){
+        if(i !== del)
+            myArr.push(arr[i])        
+    }
+    return myArr;
+}
+
+function findMiddle(arr){
+    if (arr.length%2===0)
+        return (arr.length)/2
+    else
+        return (arr.length-1)/2
+    
+}
+
+console.log(RemoveMiddleValue([10, 20, 30, 40, 50]));
+console.log(RemoveMiddleValue([10, 20, 30, 40]));
