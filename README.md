@@ -23,3 +23,6 @@ This function takes an array and returns the minimum value.
 
 ### Challenge 03: Reverse Characters  
 [Reverse-Characters](Challenges/Reverse-Characters/README.md)
+
+### Challenge 04: Remove Middle index
+[Remove-Middle-Index](Challenges/Remove-Middle/README.md)
