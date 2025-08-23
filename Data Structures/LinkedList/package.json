@@ -1,0 +1,17 @@
+{
+  "name": "linkedlist",
+  "version": "1.0.0",
+  "description": "LinkedList Implementation with Jest Tests",
+  "main": "LinkedList.js",
+  "scripts": {
+  "test": "jest"
+},
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "jest": "^30.0.5"
+  }
+}
