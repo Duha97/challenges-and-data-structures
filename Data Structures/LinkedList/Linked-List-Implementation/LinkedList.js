@@ -122,6 +122,56 @@ class LinkedList {
     this.head = prev;
 
   }
+
+  isSorted(){
+    if(!this.head || !this.head.next)
+     return true;
+
+    let current = this.head;
+    while(current.next){
+      if (current.data > current.next.data){
+        return false;
+      }
+      current = current.next;}
+      return true;
+  }
+
+    static mergeSortedLists(l1, l2) {
+    
+      if(!l1.isSorted() || !l2.isSorted()){
+        console.log("Lists must be sorted");
+        return;
+      }
+      if (!l1.head) return l2;
+      if (!l2.head) return l1;
+      if (!l1.head && !l2.head) return null;
+
+      let dummy = new Node(0);
+      let tail = dummy;
+
+      let current1 = l1.head;
+      let current2 = l2.head;
+
+      while (current1 && current2) {
+        if (current1.data <= current2.data) {
+          tail.next = current1;
+          current1 = current1.next;
+        } else {
+          tail.next = current2;
+          current2 = current2.next;
+        }
+        tail = tail.next;
+      }
+
+      if (current1) tail.next = current1;
+      if (current2) tail.next = current2;
+
+      const mergedList = new LinkedList();
+      mergedList.head = dummy.next;
+
+      return mergedList;
+  }
+
 }
 
 module.exports = LinkedList;
