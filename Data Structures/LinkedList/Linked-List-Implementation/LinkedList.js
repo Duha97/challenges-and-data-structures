@@ -172,6 +172,38 @@ class LinkedList {
       return mergedList;
   }
 
+    rotateLeft(k){
+    if(!this.head || k === 0) return this.head;
+
+    let length = 1;
+    let tail = this.head;
+
+    while (tail.next) {
+        tail = tail.next;
+        length++;
+    }
+
+      
+  if (k < 0) k = length - (Math.abs(k) % length); 
+  k = k % length;
+
+  if (k === 0) return this.head;
+
+  let current = this.head;
+  let count = 1;
+  while (count < k && current) {
+    current = current.next;
+    count++;
+  }
+
+  let newHead = current.next;
+  current.next = null;
+  tail.next = this.head;
+  this.head = newHead;
+
+  return this.head;
+  }
+
 }
 
 module.exports = LinkedList;
