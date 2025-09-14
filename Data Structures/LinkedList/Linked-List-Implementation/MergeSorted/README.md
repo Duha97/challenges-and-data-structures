@@ -1,3 +1,3 @@
 # Merge Sorted Whiteboard
 
-![Merged-Sorted](docs/mergedSortedWhiteboard.png)
+![Merged-Sorted](../docs/mergedSortedWhiteboard.png)
