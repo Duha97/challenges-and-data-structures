@@ -28,4 +28,4 @@ This function takes an array and returns the minimum value.
 [Remove-Middle-Index](Challenges/Remove-Middle/README.md)
 
 ### Challenge 05: Linked Lists
-[Linked-Lists](Data%20Structures/LinkedList/README.md)
+[Linked-Lists](Data%20Structures/LinkedList/Linked-List-Implementation/README.md)
