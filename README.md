@@ -29,3 +29,6 @@ This function takes an array and returns the minimum value.
 
 ### Challenge 05: Linked Lists
 [Linked-Lists](Data%20Structures/LinkedList/Linked-List-Implementation/README.md)
+
+### Challenge 06: Remove middle value from stack
+[Remove-Middle-From-Stack](Data%20Structures/Stack&Queue/DeleteMiddleElement/README.md)
