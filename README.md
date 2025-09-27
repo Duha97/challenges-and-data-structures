@@ -32,3 +32,6 @@ This function takes an array and returns the minimum value.
 
 ### Challenge 06: Remove middle value from stack
 [Remove-Middle-From-Stack](Data%20Structures/Stack&Queue/DeleteMiddleElement/README.md)
+
+### Challenge 07: Min stack challenge
+[Min-Stack-Challenge](Data%20Structures/Stack&Queue/MinStack/README.md)

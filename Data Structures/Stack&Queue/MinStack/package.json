@@ -1,0 +1,17 @@
+{
+  "name": "minstack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "minStack.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
