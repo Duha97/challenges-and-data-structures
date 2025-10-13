@@ -35,3 +35,6 @@ This function takes an array and returns the minimum value.
 
 ### Challenge 07: Min stack challenge
 [Min-Stack-Challenge](Data%20Structures/Stack&Queue/MinStack/README.md)
+
+### Challenge 08: Trees Implementation
+[Binary-Search-Tree](Data%20Structures/Trees/README.md)
