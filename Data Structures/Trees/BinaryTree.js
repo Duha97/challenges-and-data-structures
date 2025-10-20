@@ -5,7 +5,11 @@ class BinaryTree {
     }
 
     insert(value){
-        this.insertHelperMethod(this.root,value);
+        if (!this.root) {
+        this.root = new TNode(value);
+        return;
+        }
+    this.insertHelperMethod(this.root, value);
     }
 
     insertHelperMethod(node,value){
@@ -61,6 +65,39 @@ class BinaryTree {
             this.print(node.right, prefix + (isLeft ? "│   " : "    "), false);
     }
     }
+
+    findSecondMax() {
+    if (!this.root) {
+      console.log("Tree is empty");
+      return null;
+    }
+
+    let first = -Infinity;
+    let second = -Infinity;
+
+    function traverse(node) {
+      if (!node) return;
+
+      if (node.value > first) {
+        second = first;
+        first = node.value;
+      } else if (node.value > second && node.value < first) {
+        second = node.value;
+      }
+
+      traverse(node.left);
+      traverse(node.right);
+    }
+
+    traverse(this.root);
+
+    if (second === -Infinity) {
+      console.log("Tree does not have a second maximum value");
+      return null;
+    }
+
+    return second;
+  }
 
 
 }

@@ -38,3 +38,6 @@ This function takes an array and returns the minimum value.
 
 ### Challenge 08: Trees Implementation
 [Binary-Search-Tree](Data%20Structures/Trees/README.md)
+
+### Challenge 09: Second max value in tree
+[Second-Max-Trees](Data%20Structures/Trees/SecondMaxValue/README.md)
