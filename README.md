@@ -41,3 +41,6 @@ This function takes an array and returns the minimum value.
 
 ### Challenge 09: Second max value in tree
 [Second-Max-Trees](Data%20Structures/Trees/SecondMaxValue/README.md)
+
+### Challenge 10: Sum of Leaves in atree
+[Leaf-Sum](Data%20Structures/Trees/LeafSum/README.md)

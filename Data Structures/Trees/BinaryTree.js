@@ -99,6 +99,32 @@ class BinaryTree {
     return second;
   }
 
+  SumOfLeafNodes(node = this.root) {
+  try {
+    // If tree is empty
+    if (!node) {
+      console.log("Tree is empty");
+      return 0;
+    }
+
+    // Base case: leaf node
+    if (!node.left && !node.right) {
+      return node.value;
+    }
+
+    // Recursive case: sum from left and right subtrees
+    let leftSum = this.SumOfLeafNodes(node.left);
+    let rightSum = this.SumOfLeafNodes(node.right);
+
+    return leftSum + rightSum;
+
+  } catch (error) {
+    console.error("Error calculating sum of leaf nodes:", error);
+    return 0;
+  }
+}
+
+
 
 }
 
